@@ -1,0 +1,38 @@
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    color: #ffffff; 
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.home-card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(15, 4, 4, 0.5);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.home-card h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1ed760; 
+}
+
+.home-card h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
