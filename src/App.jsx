@@ -3,7 +3,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import Home from './components/Home';
 import MovieList from './components/MovieList';
 import MovieDetail from './components/MovieDetail';
-import Navbar from './components/NavBar';
+import Navbar from './components/Navbar';
 import './App.css'; 
 
 const queryClient = new QueryClient();
